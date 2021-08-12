@@ -1,0 +1,355 @@
+header{
+    height: 600px;
+    width: 100%;
+    /* background: url("../public/Talk-is-cheap-Show-me-the-code.jpg"); */
+    background: url("../public/girl (2).jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* opacity: 0.8; */
+  /* clip-path: polygon(50% 0%, 100% 0, 100% 90%, 50% 100%, 0% 90%, 0 0); */
+}
+body {
+    max-width: 100%;
+    background-image: linear-gradient(to bottom right, white, orange);
+   /* background-color: snow; */
+}
+.logo{
+    color: white;
+    font-size: 50px;
+    padding-left: 100px;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+    margin-right: 100px;
+}
+.menu a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+}
+.menu a:hover{
+    background: red;
+    transition: 0.4;
+}
+.text{
+    color: white;
+    margin: 50px;
+}
+.text p{
+    font-size: 20px;
+}
+#about{
+    padding: 100px 50px;
+}
+.section-info{
+    font-weight: bold;
+    text-align: center;
+}
+.section-info h1{
+    font-size: 50px;
+}
+.section-info p{
+    font-size: 25px;
+    color: red;
+}
+.about-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+}
+.about-left-col{
+flex-basis: 50%;
+}
+.about-left-col img{
+width: 50%;
+height: auto;
+border-radius: 10px;
+box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 30px 0 rgba(0, 0, 0, 0.19);
+margin-left: 50px;
+
+/* padding: 50px; */
+}
+.about-right-col{
+    flex-basis: 50%;
+}
+#p-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.about-right-col{
+    font-size: 20px;
+    text-align: justify;
+}
+#skills{
+    padding: 100px 50px;
+   display:flex;
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+    background-image: linear-gradient(to right, blue, lightblue);
+    border-radius: 50px;
+}
+.skills-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    padding: 50px;
+}
+.skills-left-col{
+    flex-basis: 50%;
+}
+.skills-left-col p{
+    font-size: 50%;
+}
+.skills-right-col{
+    flex-basis: 50%;
+}
+ progress{
+    width: 30%;
+    float: right;
+    background-color: red;
+}
+/* .progress-div{
+    width: 100%;
+    margin: auto;
+}
+.progress-div p{
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding-left: 80px;
+    text-align: justify;
+}  */
+#services{
+    padding: 20px 50px;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+.services-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.services-box{
+    height: 300px;
+    width: 300px;
+    float: left;
+    flex-basis: 5%;
+    text-align: center;
+    /* box-shadow: 2px 3px 5px grey;  */
+     padding: 20px 20px;
+    margin-top: 10px;
+    margin-left: 50px;
+} 
+
+.services-box:hover{
+    background: red;
+    color: white;
+    transition: 0.4%;
+}
+.services-box img{
+    width: 80%;
+}
+.c-btn {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    /* -webkit-transition-duration: 0.4s; Safari */
+    transition-duration: 0.4s;
+  }
+  .c-btn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  #htmlimage{
+    width: 8%;
+    height:auto;
+}
+#cssimage{
+  width: 18%;
+  height:auto;
+  /* margin-left: 150px; */
+  flex-basis: 50%;
+}
+#reactimage{
+  width: 10%;
+  height:auto;
+  flex-basis: 50%;
+  /* margin-left: 200px; */
+}
+#javascriptimage{
+  width: 10%;
+  height:auto;
+  flex-basis: 50%;
+  /* margin-left: 200px; */
+}
+#sidenav{
+    display: none;
+}
+#bottom {
+    background-color: black;
+    height: 250px;
+    width: 100%;
+}
+#maill {
+    margin: 0px;
+   padding: 10px;
+    color: cornsilk;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+}
+#one {
+    float: left;
+    margin: 20px;
+    padding: 20px;
+}
+#two {
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    color: lightcyan;
+    font-size: 25px;
+    }
+  
+@media only screen and (max-width: 770px){
+  header{ 
+       /* background: url("./public/girl\ \(2\).jpg"); */
+       background-size: cover;
+}
+#sidenav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 0px;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 100px 0px;
+    transition: 0.4;
+    display: block;
+}
+#sidenav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 10px 30px;
+    padding: 20px;
+    display: block;
+}
+#sidenav a:hover{
+    background: red;
+    transition: 0.4s;
+}
+#menubar{
+    position: fixed;
+    top: 10px;
+    left: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+.logo{
+    padding-left: 150px;
+}
+#services{
+    padding: 10px 10px;
+    background-size: cover;
+    width: 100%;
+    height: 1300px;
+}
+.services-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.services-box{
+    height: 300px;
+    width: 300px;
+    float: left;
+    flex-basis: 5%;
+    text-align: center;
+    box-shadow: 2px 3px 5px grey; 
+     padding: 20px 20px;
+    margin-top: 10px;
+    margin-left: 120px;
+} 
+
+.services-box:hover{
+    background: red;
+    color: white;
+    transition: 0.4%;
+}
+.services-box img{
+    width: 80%;
+}
+#bottom {
+    background-color: black;
+    height: 250px;
+    width: 100%;
+}
+/* #maill {
+    margin: 0px;
+   padding: 10px;
+    color: cornsilk;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#one {
+    float: left;
+    margin: 20px;
+    padding: 20px;
+}
+#two {
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    color: lightcyan;
+    font-size: 25px;
+    
+  } */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
